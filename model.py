@@ -36,6 +36,7 @@ def main():
     print(f"True Positive Rate: {100 * sensitivity:.2f}%")
     print(f"True Negative Rate: {100 * specificity:.2f}%")
        
+    # Displaying the classification report for model evaluation
     
     print("\nClassification Report\n")
     print(classification_report(y_test,predictions))
