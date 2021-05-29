@@ -3,6 +3,7 @@ import sys
 
 from sklearn.model_selection import train_test_split
 from sklearn.neighbors import KNeighborsClassifier
+from sklearn.metrics import classification_report,confusion_matrix, accuracy_score
 
 TEST_SIZE = 0.4
 
@@ -34,6 +35,11 @@ def main():
     print(f"Incorrect: {(y_test != predictions).sum()}")
     print(f"True Positive Rate: {100 * sensitivity:.2f}%")
     print(f"True Negative Rate: {100 * specificity:.2f}%")
+       
+    
+    print("\nClassification Report\n")
+    print(classification_report(y_test,predictions))
+    print("Accuracy : ",accuracy_score(y_test,predictions)*100)
 
 
 def load_data(filename):
