@@ -1,22 +1,22 @@
 # Customer-Purchase-Predection
 
-> Customer engagement is very important for any business model.
-> In this project I tried to built an purchase prediction model for an online e-commerce platform, which will try to predict whether a customer will make a purchase or not, perhaps displaying different content to the user, like showing the user a discount offer if the website believes the user isn’t planning to complete the purchase.
+- Customer engagement is very important for any business model.
+- In this project I tried to built an purchase prediction model for an online e-commerce platform, which will try to predict whether a customer will make a purchase or not, perhaps displaying different content to the user, like showing the user a discount offer if the website believes the user isn’t planning to complete the purchase.
 
 ## Motivation
 
-> When users are shopping online, not all will end up purchasing something. 
-> Most visitors to an online shopping website, in fact, likely don’t end up going through with a purchase during that web browsing session. 
-> It might be useful, though, for a shopping website to be able to predict whether a user intends to make a purchase or not; perhaps displaying different content to the user, like showing the user a discount offer if the website believes the user isn’t planning to complete the purchase.
+- When users are shopping online, not all will end up purchasing something. 
+- Most visitors to an online shopping website, in fact, likely don’t end up going through with a purchase during that web browsing session. 
+- It might be useful, though, for a shopping website to be able to predict whether a user intends to make a purchase or not; perhaps displaying different content to the user, like showing the user a discount offer if the website believes the user isn’t planning to complete the purchase.
 
 ## Proposed Method
 
-> We began the evaluation by loading the customer activity dataset for a website.
-> Next step involves feature selection based on feature importance.
-> Then we replaced string values numerical values.
-> Followed by preparing the training and test data for model.
-> The training data will be used to train the KNN (k-nearest neighbors) model. 
-> And the test data will be used to validate the model.
+- We began the evaluation by loading the customer activity dataset for a website.
+- Next step involves feature selection based on feature importance.
+- Then we replaced string values numerical values.
+- Followed by preparing the training and test data for model.
+- The training data will be used to train the KNN (k-nearest neighbors) model. 
+- And the test data will be used to validate the model.
 
 ## Dataset
 
