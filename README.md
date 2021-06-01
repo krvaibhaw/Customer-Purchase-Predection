@@ -1,4 +1,4 @@
-# Customer-Purchase-Predection
+# Customer Purchase Predection
 
 - Customer engagement is very important for any business model.
 - In this project I tried to built an purchase prediction model for an online e-commerce platform, which will try to predict whether a customer will make a purchase or not, perhaps displaying different content to the user, like showing the user a discount offer if the website believes the user isn’t planning to complete the purchase.
